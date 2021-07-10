@@ -1,3 +1,9 @@
-const IndexPage = () => <h1 className="mx-5 text-red-500">NO</h1>;
+import React from "react";
+
+import { MySwiper } from "../components/Swiper";
+
+const IndexPage: React.FC = () => {
+  return <MySwiper />;
+};
 
 export default IndexPage;
